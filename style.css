@@ -4,3 +4,38 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.destaque{
+    color: #0091ff;
+}
